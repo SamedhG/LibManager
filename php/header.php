@@ -1,5 +1,4 @@
-<?php
-echo'<tr>
+<tr>
     <td width="25%"><a href="welcome.php"><img src="lmplogo.png" width="150" height="150"></a></td>
 	<td width="75%" align="center" valign="top">
 	  <table>
@@ -16,11 +15,10 @@ echo'<tr>
 		</table>
 		</td>
 		<td width="10%">
-		<p align="right" >Welcome '.$_SESSION['name'].' <br></p>
+		<p align="right" >Welcome <?php $_SESSION['name'] ?> <br></p>
 		</td>
 	     </tr>
 	</table>
 	</td>
 	</td>
-	</tr>';
-?>
+	</tr>

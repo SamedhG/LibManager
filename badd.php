@@ -2,6 +2,7 @@
 include("php/sqlvar.php");
 
 if(isset($_POST['submit'])){
+	// security checks?
 	$a=$_POST['name'];
 	$b=$_POST['author'];
 	$c=$_POST['noc'];
@@ -55,6 +56,7 @@ if(isset($_POST['submit'])){
               <tr>
                 <td><p>Copies : </p></td>
                 <td>
+									<!--this is dumb why did i do this haha, note to self change this -->
                   <select name="noc" id="noc">
                     <option value="1">1</option>
                     <option value="2">2</option>

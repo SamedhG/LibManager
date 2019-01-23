@@ -1,5 +1,5 @@
-<?php
-echo'<td><table width="100%" border="0" cellpadding="10px" style="border:none">
+<td>
+  <table width="100%" border="0" cellpadding="10px" style="border:none">
       <tr>
         <td><a href="bview.php" class="hvr-grow">View Books </a></td>
       </tr>
@@ -20,9 +20,6 @@ echo'<td><table width="100%" border="0" cellpadding="10px" style="border:none">
       </tr>
 	  <tr>
         <td><a href="index.php?logout=true" class="hvr-grow">Logout</a></td>
-      </tr>
-
-
-    </table></td>';
-
-?>
+    </tr>
+  </table>
+</td>

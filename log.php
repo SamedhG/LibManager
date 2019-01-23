@@ -76,7 +76,7 @@ $register=mysqli_query($conn, $qryreq);
                 </table>
                 <br>
                 <br>
-                Note: fine is at the rate of rs. <?php echo $finer;?> per day after a free period of 7 days
+                Note: fine is at the rate of $<?php echo $finer;?> per day after a free period of 7 days
                 <br>
                 Books can be renewed from the home page.
     </td>
